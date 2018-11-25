@@ -2,20 +2,34 @@
  * - 横幅が760pxのWebページを作成してください
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
  */
+body {
+    width: 760px;
+    margin: 0 auto;
+}
 
 /**
  * - 見出し(h1)は中央揃えにしてください
  */
-
+h1 {
+    text-align: center;
+}
 
 /**
  * - テーブル(table)の横幅は350pxとする
  * - 中央揃えにする(ヒント: margin, auto)
  */
+table {
+    width: 350px;
+    margin: 0 auto;
+}
 
 /**
  * - テーブル内の各項目(td)のサイズを正方形にするために、高さ・横幅ともに100pxとする
  */
+ td {
+     height: 100px;
+     width: 100px;
+ }
 
 /**
  * - テーブル内のセルに縦線(vertical line)をつけるためのボーダーをセットする
@@ -24,6 +38,10 @@
  * - 上下のボーダーはいらないのでborder-left, border-rightプロパティを使って、指定した要素の左右にだけボーダーを作る
  * - ボーダーは「太さは1px」「スタイルはsolid」「色は#000000」とする
  */
+.vertical {
+    border-left: 1px solid #000000;
+    border-right: 1px solid;
+}
 
 /**
  * - テーブル内のセルに横線(horizontal line)をつけるためのボーダーをセットする
@@ -33,6 +51,11 @@
  * - ボーダーは「太さは1px」「スタイルはsolid」「色は#000000」とする
  */
 
+.horizontal {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
 /**
  * 発展課題
  *
@@ -40,3 +63,6 @@
  * - ヒント: CSSの擬似クラスである:hoverを使う( https://developer.mozilla.org/ja/docs/Web/CSS/:hover )
  *   - 擬似クラスは学習コンテンツでは扱っていませんが、ドキュメントを見て課題を解決スキルを身につけるのを目的に発展課題を用意しました
  */
+ td:hover {
+     border: 1px solid #aaaaaa;
+ }
