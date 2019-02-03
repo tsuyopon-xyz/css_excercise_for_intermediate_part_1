@@ -2,7 +2,7 @@
  * - 横幅が760pxのWebページを作成してください
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
  */
- body {
+body {
   width: 760px;
   margin: 0 auto;
 }
@@ -63,6 +63,6 @@ td {
  * - ヒント: CSSの擬似クラスである:hoverを使う( https://developer.mozilla.org/ja/docs/Web/CSS/:hover )
  *   - 擬似クラスは学習コンテンツでは扱っていませんが、ドキュメントを見て課題を解決スキルを身につけるのを目的に発展課題を用意しました
  */
- td:hover {
-   border: 1px solid #aaaaaa;
- }
+td:hover {
+  border: 1px solid #aaaaaa;
+}
