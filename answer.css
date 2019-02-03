@@ -2,7 +2,7 @@
  * - 横幅が760pxのWebページを作成してください
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
  */
- body, td {
+ body {
   width: 760px;
   margin: 0 auto;
 }
