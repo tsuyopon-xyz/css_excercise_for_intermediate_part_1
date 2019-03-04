@@ -15,11 +15,9 @@ h1 {
 }
 
 /**
- * - テーブル(table)の横幅は350pxとする
  * - 中央揃えにする(ヒント: margin, auto)
  */
 table {
-  width: 350px;
   margin: auto;
 }
 
